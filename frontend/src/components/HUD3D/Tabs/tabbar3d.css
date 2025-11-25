@@ -1,0 +1,23 @@
+.tabbar-3d-container {
+  position: fixed;
+  bottom: 32px;
+  width: 100%;
+  height: 160px;
+  z-index: 99999;
+  pointer-events: auto;
+}
+
+.tabbar-3d-canvas {
+  width: 100%;
+  height: 140px;
+}
+
+.tabbar-3d-labels {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+  color: white;
+  text-shadow: 0 0 12px rgba(0,255,255,0.7);
+  font-size: 13px;
+  letter-spacing: 1px;
+}

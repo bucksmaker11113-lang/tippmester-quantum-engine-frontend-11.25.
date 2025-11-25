@@ -1,0 +1,15 @@
+.holo-panel {
+  background: rgba(35, 0, 40, 0.55);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 120, 255, 0.25);
+  box-shadow: 0 0 18px rgba(255, 120, 255, 0.35);
+  border-radius: 14px;
+  padding: 22px;
+  color: #ffeaff;
+  animation: fadeIn 0.25s ease-out, popIn 0.2s ease-out;
+}
+
+.holo-item {
+  border: 1px solid rgba(255, 120, 255, 0.3);
+  background: rgba(80, 0, 80, 0.35);
+}
