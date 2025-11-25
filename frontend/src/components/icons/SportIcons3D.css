@@ -1,0 +1,54 @@
+/* Hová kerül: frontend/src/components/icons/SportIcons3D.css */
+
+.sport-icons-3d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.sport-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: #141414;
+  border-radius: 8px;
+  border: 1px solid #222;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sport-icon:hover {
+  transform: scale(1.08) rotateX(8deg) rotateY(-8deg);
+}
+
+.icon-shape {
+  width: 50px;
+  height: 50px;
+  background: #1b1b1b;
+  border-radius: 50%;
+  border: 2px solid #333;
+  margin-bottom: 6px;
+}
+
+.sport-icon.football .icon-shape {
+  background: radial-gradient(circle, #fff 40%, #000 41%);
+}
+
+.sport-icon.basketball .icon-shape {
+  background: radial-gradient(circle, #f28d0c 40%, #000 41%);
+}
+
+.sport-icon.tennis .icon-shape {
+  background: radial-gradient(circle, #b6ff00 40%, #000 41%);
+}
+
+.sport-icon.handball .icon-shape {
+  background: radial-gradient(circle, #00c3ff 40%, #000 41%);
+}
+
+.label {
+  font-size: 14px;
+  color: #ccc;
+}
